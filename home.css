@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.headermove{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    
+    padding: 1px;
+    width: auto;
+    margin-bottom: 2px; 
+    /*background-color: ;*/
+}
+
+footer{
+    padding: 21px;
+    width: auto;
+    background-color: black;
+    margin-top: 2000px;
+}
+
+
+.kklogoheader{
+    width: 55px;
+}
+
+.textalign{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.text1{
+    margin: 20px;
+    color: white;
+}
+
+.imagecontentbox{
+    display: flex;
+    height: calc(85vw / (16 / 9));
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.imagecontentbox img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    height: auto;     
+    object-fit: cover;    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.policycontent{
+    background-color: black;
+}
+
+.textpolicyhead{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
