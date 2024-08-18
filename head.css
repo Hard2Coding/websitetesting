@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headermove{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    position: absolute;
+    display: flex;
+    padding: 1px;
+    width: auto;
+    margin-bottom: 2px; 
+    /*background-color: ;*/
+}
+
+.kkblogoheader{
+    display: flex;
+    width: 55px;
+}
+
+.kklogoheader{
+    display: none;
+    width: 55px;
+}
+
+.textalign{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.text1{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+@media (max-width:1000px) {
+    header{
+        position: relative;
+        display: flex;
+        padding: 0px;
+        margin-bottom: 0px; 
+        }
+        .textpolicyhead{
+            display: flex;
+            justify-content: center;
+            color: black;
+            font-size: 25px;  
+        }
+    
+        .textalign{
+            display: flex;
+            height: 40px;
+            align-items: center;
+            flex-direction: row;
+    
+        }
+        .text1{
+            display: flex;
+            font-size: 12px;
+            color: black;
+            text-decoration: none;
+        }
+        .kklogoheader{
+            display: none;
+            width: 35px
+        }
+        .kkblogoheader{
+            display: flex;
+            width: 35px;
+        }
+
+}

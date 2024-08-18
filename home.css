@@ -1,0 +1,546 @@
+*{
+    margin: 0%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.headermove{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    position: absolute;
+    display: flex;
+    padding: 1px;
+    width: auto;
+    margin-bottom: 2px; 
+    /*background-color: ;*/
+}
+
+footer{
+    padding: 21px;
+    width: auto;
+    background-color: #29c5f6;
+    margin-top: 20px;
+}
+
+.footertext{
+    display: block; 
+    margin-left: 26px;
+    color: white;
+}
+
+.footerlogo{
+    width: 70px;
+}
+
+.adjustfooterlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.kkblogoheader{
+    display: none;
+    width: 55px;
+}
+
+.kklogoheader{
+    width: 55px;
+}
+
+.textalign{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.text1{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.imagecontentbox{
+    display: flex;
+    height: calc(85vw / (16 / 9));
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.imagecontentbox img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    height: auto;     
+    object-fit: cover;    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutcontent2move{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.aboutcontentmove{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.movehighlight{
+    display: flex;
+    justify-content: center;
+}
+
+.highlighttext{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    margin-top:15px;
+    font-size: 40px;
+
+}
+
+.highlighttext::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 30%; 
+    background-color: #29c5f6;
+    z-index: -1;
+    transform: rotate(-3deg);
+    border-radius: 5px; 
+    height: 50%; 
+}
+
+.policycontent{
+    display: flex;
+    justify-content: center;
+}
+
+.textpolicyhead{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.textpolicyhead::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 30%; 
+    background-color: #29c5f6;
+    z-index: -1;
+    transform: rotate(-2deg);
+    border-radius: 5px;
+    height: 50%;
+}
+
+.announcement{
+    display: flex;
+    justify-content: center;
+}
+
+.justifyannouncement{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.announcementtext::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 30%; 
+    background-color: #29c5f6;
+    z-index: -1;
+    transform: rotate(-2deg);
+    border-radius: 5px;
+    height: 50%;
+}
+
+.swipe-in {
+    animation: swipeInLeft 1s ease-out forwards;
+}
+
+@keyframes swipeInLeft {
+    from {
+        transform: translateX(-100%); 
+    }
+    to {
+        transform: translateX(0); 
+    }
+}
+
+.about1{
+    display: flex;
+    position: a;
+    height: auto;
+    margin-top: 20px;
+}
+
+.aboutcontent{
+    height: auto;
+}
+
+.abouttext{
+    display: flex;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.about1text{
+    display: block; 
+    margin-left: 15px;
+}
+
+
+
+
+.about2text{
+    display: flex;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.about22text{
+    display: block; 
+    margin-left: 15px;
+}
+
+.about2{
+    display: flex;
+    position: a;
+    height: auto;
+    margin-top: 20px;
+}
+
+.movepolicy{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.textpolicyhead{
+    display: flex;
+    position: absolute;
+    color: black;
+    font-size: 35px;
+}
+
+
+.textpolicyhead2{
+    display: flex;
+    margin-left: 470px;
+    color: black;
+    font-size: 35px;
+}
+
+.policy1{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.policy1 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.policy1text{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.policy1h1text{
+    display: block; 
+    margin-left: 20px;
+}
+.policy1h2text{
+    display: block; 
+    margin-left: 24px;
+}
+.policy1h3text{
+    display: block; 
+    margin-left: 26px;
+}
+
+
+li{
+    display: inline-block; 
+    margin-right: 18px; 
+}
+
+.policy1move{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.policy2{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+
+.policy2 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.policy2move{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.policy3{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+
+.policy3move{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.policy3 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.aboutkklogo{
+    display: flex;
+    margin-left: 20px;
+    width: 180px;
+}
+
+.about1 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.about2 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+.aboutkk2logo{
+    display: none;
+}
+
+
+.r3{
+    display: none;
+}
+
+.policy4{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+}
+
+.policy4move{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.policy4 span {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.news{
+    height: 300px;
+    
+}
+
+.justifynews{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.newstext{
+    color: black;
+}
+
+@media (max-width:1000px) {
+    header{
+    position: relative;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px; 
+    }
+    .textpolicyhead{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 25px;  
+    }
+
+    .textalign{
+        display: flex;
+        height: 40px;
+        align-items: center;
+        flex-direction: row;
+
+    }
+    .text1{
+        display: flex;
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+    }
+    .kklogoheader{
+        display: none;
+        width: 35px
+    }
+    .kkblogoheader{
+        display: flex;
+        width: 35px;
+    }
+    .textpolicyhead{
+        display: flex;
+        position: absolute;
+        color: black;
+        font-size: 22px;
+    }
+    .policycontent{
+        background-color:white ;
+        height: 35px;
+        margin-top: 5px;
+        position: relative; 
+     }
+    .aboutkklogo{
+        display: none;
+    }
+    .aboutkk2logo{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    .kkmb{
+        display: flex;
+        justify-content: center;
+    }
+    .abouttext{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .about1text{
+        display: flex;
+        justify-content: center; 
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    .aboutcontentmove{
+        display: flex;
+        justify-content: center;
+        margin-top: px;
+        margin-left: 10px;
+    }
+    .r2{
+        display: none;
+    }
+    .r3{
+        display: block;
+    }
+    .policy2{
+        display: flex;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .policy{
+        display: flex;
+        height: auto;
+        margin-top: 20px;
+    }
+    .policy1text{
+        font-size: 20px; 
+        margin-left: 30px;
+    }
+    .policy1h1text{
+        display: block; 
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .policy1h2text{
+        display: block; 
+        font-size: 15px;
+        text-align: center;
+    }
+    .policy1h3text{
+        display: block; 
+        font-size: 15px;
+        text-align: center;
+    }
+    .policy1{
+        display: flex;
+        height: auto;
+        margin-top: 50px;
+    }
+    .policyalign{
+        text-align: center;
+    }
+    .justifyannouncement{
+        position: relative;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .movepolicy{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+}
