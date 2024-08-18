@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headermove{
+    display: flex;
+    justify-content: center;
+}
+
+
+header{
+    display: block;
+    padding: 1px;
+    width: auto;
+    margin-bottom: 2px; 
+    /*background-color: ;*/
+}
+
+footer{
+    padding: 21px;
+    width: auto;
+    background-color: #29c5f6;
+    margin-top: 20px;
+}
+
+.footerlogo{
+    width: 70px;
+}
+
+.adjustfooterlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.kkblogoheader{
+    display: flex;
+    width: 55px;
+}
+
+.kklogoheader{
+    display: none;
+    width: 55px;
+}
+
+.textalign{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.text1{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.footertext{
+    display: block; 
+    margin-left: 26px;
+    color: white;
+}
